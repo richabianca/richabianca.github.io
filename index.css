@@ -1,0 +1,54 @@
+* {
+    font-family: 'Syncopate', sans-serif;
+    box-sizing: border-box;
+}
+
+body,
+.third-box {
+    /*background-image: url(/images/color-2174065_1280.png); */
+    border: 10px solid transparent;
+    height: 100vh;
+    overflow: hidden;
+}
+
+main {
+    border: 10px solid black;
+    height: 100vh;
+}
+
+
+.fourth-box {
+    background-color: black;
+    height: 100vh;
+
+}
+
+h1,
+h2 {
+    color: white;
+    font-weight: 700;
+    padding: 40px;
+    margin: 40px;
+}
+
+main>.third-box>.fourth-box>h1 {
+    font-size: 90px;
+
+}
+
+#enter {
+    color: black;
+    border-radius: 0%;
+    background-color: white;
+    margin-left: 40%;
+    margin-top: 80px;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+#enter:hover {
+    text-decoration: none;
+    background-color: rgb(214, 6, 6);
+    border: rgb(214, 6, 6);
+}
